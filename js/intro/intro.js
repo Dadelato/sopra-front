@@ -1,4 +1,4 @@
-console.log('Hola mundo!');
+/*console.log('Hola mundo!');
 var texto = "Probando";
 
 console.log(texto);
@@ -43,3 +43,60 @@ console.log(nombre1[0]);
 //Operador ternario
 var num = 3 % 2 === 0 ? "Es par" : "Es impar";
 console.log(num);
+
+//Ejemplos consola
+console.log("Mensaje de informacion");
+console.warn("Mensaje de peligro");
+console.log("Mensaje de error");
+alert("Muestra un mensaje");
+var esVerdad = confirm("Es verdad lo que dicen??");
+var miNombre = prompt("Como te llamas??"); //Devuelve lo introducido o null
+
+
+//Iteraciones y Bucles
+
+var miNombre ="Paco";
+if(miNombre === "Paco"){
+    console.log("Eres Paco");
+} else if (miNombre ==="Angel"){
+    console.log("Eres Angel");
+} else{
+    console.log("Eres otra persona");
+}
+
+switch(miNombre){
+    case "Paco":
+        console.log("Eres Paco");
+        break;
+    case "Angel":
+        console.log("Eres Angel");
+        break;
+    default:
+        console.log("Eres otra persona");
+}
+
+
+var nombres = ["Robb", "Arya", "Sansa", "Rickon", "Bran"]
+for(var i = 0; i<nombres.length; i++){
+    console.log(nombres[i]);
+}
+
+//For in
+for(var i in nombres){
+    console.log("FORIN: " + nombres[i]);
+}
+
+//For of
+for(var nombre of nombres){
+    console.log("FOROF: " + nombre);
+}
+
+//While
+var num = prompt("Introduce -1 para salir del bucle");
+while(Number(num) !== -1){
+    num = prompt("introduce -1 para salir del bucle");
+}
+
+*/
+
+
