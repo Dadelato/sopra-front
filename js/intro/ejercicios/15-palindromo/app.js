@@ -14,7 +14,7 @@ function esPalindromo(texto){
 console.log(esPalindromo("ha  h"));
 
 /*
-function esPalindro(texto){
+function esPalindromo(texto){
     var textoSinEspacios = texto.replace(/ /g,"");
     var arrayLetras = textoSinEspacios.split("");
     var arrayAlReves = arrayLetras.reverse();
