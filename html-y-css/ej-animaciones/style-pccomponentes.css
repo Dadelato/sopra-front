@@ -1,0 +1,31 @@
+div#card{
+    width: 200px;
+    height: 190px;
+    border: 1px solid black;
+    text-align: center;
+    overflow: hidden;
+    transition: height 0.7s;
+    
+}
+
+img{
+    width: 100%;
+}
+
+div#card:hover{
+    height: 250px;
+    transition: height 0.7s;
+    
+}
+
+button{
+    border: 1px solid black;
+    height: 20px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+button:hover{
+    border: 1px solid black;
+    background-color: black
+}
