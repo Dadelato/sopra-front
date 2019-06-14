@@ -1,0 +1,5 @@
+<h1>Ofertas de trabajo</h1>
+<hr>
+<div class="cardList">
+<app-card-job *ngFor="let oferta of ofertas" [oferta] = "oferta" (inscripcion)="cambiarInscrito($event)"></app-card-job>
+</div>

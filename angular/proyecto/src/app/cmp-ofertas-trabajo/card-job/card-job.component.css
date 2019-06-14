@@ -1,0 +1,18 @@
+.inscrito{
+    background-color: gray;
+}
+
+.card {
+    width: 230px;
+    padding: 10px;
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 10%;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+    
+}
+
+.card > p{
+    text-align: justify;
+}
